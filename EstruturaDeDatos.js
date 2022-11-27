@@ -49,24 +49,17 @@ c = c + " String!";
 
 //9 explore-differences-between-the-var-and-let-keywords
 // Variable declarations
-var studlyCapVar;
-var properCamelCase;
-var titleCaseOver;
-
-// Variable assignments
-studlyCapVar = 10;
-properCamelCase = "A String";
-titleCaseOver = 9000;
-
-//10 declare-a-read-only-variable-with-the-const-keyword
 let catName = "Oliver";
 let catSound = "Meow!";
 
-//11 add-two-numbers-with-javascript
+//10 declare-a-read-only-variable-with-the-const-keyword
 const FCC = "freeCodeCamp"; // Change this line
 let fact = "is cool!"; // Change this line
 fact = "is awesome!";
 console.log(FCC, fact); // Change this line
+
+//11 add-two-numbers-with-javascript
+const sum = 10 + 10;
 
 //12 subtract-one-number-from-another-with-javascript
 const difference = 45 - 33;
